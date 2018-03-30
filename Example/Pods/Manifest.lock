@@ -1,0 +1,16 @@
+PODS:
+  - LFYFoundation (0.1.0)
+
+DEPENDENCIES:
+  - LFYFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  LFYFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LFYFoundation: 2f82f0f89d236668d3ec99b8fa29597cb83d4bd7
+
+PODFILE CHECKSUM: eda2ba85045e709da70eb6deafa38bdf87eeec23
+
+COCOAPODS: 1.2.1

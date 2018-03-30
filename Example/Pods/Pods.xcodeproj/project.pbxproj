@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26B6B3CFB6E1791AE7ADEFE06805DD53 /* LFYFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17273BABB250D6BA4E9FA9BE63BDBE7D /* LFYFoundation-dummy.m */; };
+		39CD9DDE3425971B34CC7B4D460C4CC3 /* LFYFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C48DD9FF2547B69B3A23A10075FC61E /* LFYFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BBFB6516BDD213041431C4A9149AA37 /* Pods-LFYFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 336AA92E002CF3ABDB66C41BA3370E2F /* Pods-LFYFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BF00F408ED0443648EDE65DD17232D5 /* LFYRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EC747BCFBAC2F7D5C968360DE2D477E4 /* LFYRootObject.m */; };
+		521329C4E5A4EAC4A13C4C7FCA9F52C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		68A9FEC2ECEE14FC181D7614F9566AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		770DA2D83C51657266754B33C5818847 /* LFYRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 121E984CF713B074A3F2346493AC169E /* LFYRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF62F6262C57BB4A2D4DAA623FCF69E /* Pods-LFYFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3097BADED35A8532B74B2227B28F989 /* Pods-LFYFoundation_Tests-dummy.m */; };
+		860A0F4CDC530E913F0561F8DAD06F92 /* Pods-LFYFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1132E47C189E2FE41DA7F423DF19830 /* Pods-LFYFoundation_Example-dummy.m */; };
+		902B621A51EE26E46F6E304A3F72B8A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F743DC1CF9AC83666902D1E3DDFFD857 /* Pods-LFYFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C36185146D0CFE1031C53ECBD3BB709 /* Pods-LFYFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB000CB6A77821185B61DE87A8BEC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6B3E94156D8360CE5F1206742912F54;
+			remoteInfo = LFYFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057708E1DF615256567FE61DD4849782 /* Pods-LFYFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFYFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A7BB35B568195A518D814F9F8794452 /* Pods-LFYFoundation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYFoundation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		121E984CF713B074A3F2346493AC169E /* LFYRootObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFYRootObject.h; sourceTree = "<group>"; };
+		17273BABB250D6BA4E9FA9BE63BDBE7D /* LFYFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFYFoundation-dummy.m"; sourceTree = "<group>"; };
+		2DD3A2D6D712B1252A7844EAC8A5AF12 /* Pods-LFYFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		336AA92E002CF3ABDB66C41BA3370E2F /* Pods-LFYFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFYFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
+		358D022EFE2AE3458A741847F4EDEB3A /* Pods-LFYFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LFYFoundation_Example.modulemap"; sourceTree = "<group>"; };
+		38EB2460F56984F2B1902CA386522E13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1E57525E00F72048C2317D21D84B32 /* Pods-LFYFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C36185146D0CFE1031C53ECBD3BB709 /* Pods-LFYFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFYFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3C48DD9FF2547B69B3A23A10075FC61E /* LFYFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFYFoundation-umbrella.h"; sourceTree = "<group>"; };
+		4A4693B3925C1397E70B121F5E1FCB54 /* Pods-LFYFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LFYFoundation_Tests.modulemap"; sourceTree = "<group>"; };
+		4C39DE1EBD5EFE31087C5CC7A73AD7FE /* Pods-LFYFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5121DFE3A83AAAB3528660F968FD71CB /* LFYFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LFYFoundation.modulemap; sourceTree = "<group>"; };
+		55196E5D51E53FE8B90E973D7D37A7B8 /* Pods-LFYFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFYFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58851FA26F58ACEDB2622793052E3637 /* LFYFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LFYFoundation.framework; path = LFYFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616223F2BF0D8F0ED537D64EF01EB2CB /* Pods-LFYFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFYFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7241ADF7DC5C5099D07A9B95293F0BE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6DEF76338A8BE0987417A2F16399D8 /* Pods-LFYFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		81803C6931DA081BD712BBCDB47B0220 /* Pods_LFYFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFYFoundation_Example.framework; path = "Pods-LFYFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B4EB93A3DA8A7A9BB55F42BB0AC583 /* Pods-LFYFoundation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYFoundation_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AF82296BA7C328DD021DEFA5B233F86 /* LFYFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFYFoundation-prefix.pch"; sourceTree = "<group>"; };
+		BD4DDE48C010E493BAC9537587C620BF /* LFYFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFYFoundation.xcconfig; sourceTree = "<group>"; };
+		CF3394C9A9FCEA490ED96DF0C30A5423 /* Pods-LFYFoundation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYFoundation_Tests-resources.sh"; sourceTree = "<group>"; };
+		D1132E47C189E2FE41DA7F423DF19830 /* Pods-LFYFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFYFoundation_Example-dummy.m"; sourceTree = "<group>"; };
+		D5519428642FA0FFE322CEE1C4841DBC /* Pods_LFYFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFYFoundation_Tests.framework; path = "Pods-LFYFoundation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72087FBD3EDF18914953FFACC8D90C2 /* Pods-LFYFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC747BCFBAC2F7D5C968360DE2D477E4 /* LFYRootObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFYRootObject.m; sourceTree = "<group>"; };
+		F2D235C811BB4C4070705C4F180201BE /* Pods-LFYFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFYFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3097BADED35A8532B74B2227B28F989 /* Pods-LFYFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFYFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB8505675968C8DCB5356D8F015EFD4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DED99B18E6FC2B77853B429B7894496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A9FEC2ECEE14FC181D7614F9566AAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B1DC41DEC70915D713273354B86C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521329C4E5A4EAC4A13C4C7FCA9F52C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950EA64BD0DBA95CB364227F63922B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902B621A51EE26E46F6E304A3F72B8A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0996805D1DAB3032E9900819BAC5DDD0 /* LFYFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				0DC89EFCF908622DD52E7E6933EA3A12 /* Classes */,
+			);
+			name = LFYFoundation;
+			path = LFYFoundation;
+			sourceTree = "<group>";
+		};
+		0DC89EFCF908622DD52E7E6933EA3A12 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				121E984CF713B074A3F2346493AC169E /* LFYRootObject.h */,
+				EC747BCFBAC2F7D5C968360DE2D477E4 /* LFYRootObject.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		25E7F2AE7655462314E525761E9B3689 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8505675968C8DCB5356D8F015EFD4E /* Info.plist */,
+				5121DFE3A83AAAB3528660F968FD71CB /* LFYFoundation.modulemap */,
+				BD4DDE48C010E493BAC9537587C620BF /* LFYFoundation.xcconfig */,
+				17273BABB250D6BA4E9FA9BE63BDBE7D /* LFYFoundation-dummy.m */,
+				9AF82296BA7C328DD021DEFA5B233F86 /* LFYFoundation-prefix.pch */,
+				3C48DD9FF2547B69B3A23A10075FC61E /* LFYFoundation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LFYFoundation";
+			sourceTree = "<group>";
+		};
+		516F8D2EFEBFE25017F073FB72BE37E6 /* Pods-LFYFoundation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				38EB2460F56984F2B1902CA386522E13 /* Info.plist */,
+				358D022EFE2AE3458A741847F4EDEB3A /* Pods-LFYFoundation_Example.modulemap */,
+				057708E1DF615256567FE61DD4849782 /* Pods-LFYFoundation_Example-acknowledgements.markdown */,
+				616223F2BF0D8F0ED537D64EF01EB2CB /* Pods-LFYFoundation_Example-acknowledgements.plist */,
+				D1132E47C189E2FE41DA7F423DF19830 /* Pods-LFYFoundation_Example-dummy.m */,
+				2DD3A2D6D712B1252A7844EAC8A5AF12 /* Pods-LFYFoundation_Example-frameworks.sh */,
+				91B4EB93A3DA8A7A9BB55F42BB0AC583 /* Pods-LFYFoundation_Example-resources.sh */,
+				336AA92E002CF3ABDB66C41BA3370E2F /* Pods-LFYFoundation_Example-umbrella.h */,
+				D72087FBD3EDF18914953FFACC8D90C2 /* Pods-LFYFoundation_Example.debug.xcconfig */,
+				7B6DEF76338A8BE0987417A2F16399D8 /* Pods-LFYFoundation_Example.release.xcconfig */,
+			);
+			name = "Pods-LFYFoundation_Example";
+			path = "Target Support Files/Pods-LFYFoundation_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				91CE40A8D18DD9461F4800CA47A94F99 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F63EB56F597CE18CAA60A38915580A58 /* Products */,
+				DEA7C429B9334B81EA59F889B05B5ABD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81E823DE630E323C9A77080CBB82F845 /* LFYFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				0996805D1DAB3032E9900819BAC5DDD0 /* LFYFoundation */,
+				25E7F2AE7655462314E525761E9B3689 /* Support Files */,
+			);
+			name = LFYFoundation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8CA7DD7981EA46A9C0BB5ED9C98DE301 /* Pods-LFYFoundation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7241ADF7DC5C5099D07A9B95293F0BE6 /* Info.plist */,
+				4A4693B3925C1397E70B121F5E1FCB54 /* Pods-LFYFoundation_Tests.modulemap */,
+				F2D235C811BB4C4070705C4F180201BE /* Pods-LFYFoundation_Tests-acknowledgements.markdown */,
+				55196E5D51E53FE8B90E973D7D37A7B8 /* Pods-LFYFoundation_Tests-acknowledgements.plist */,
+				F3097BADED35A8532B74B2227B28F989 /* Pods-LFYFoundation_Tests-dummy.m */,
+				0A7BB35B568195A518D814F9F8794452 /* Pods-LFYFoundation_Tests-frameworks.sh */,
+				CF3394C9A9FCEA490ED96DF0C30A5423 /* Pods-LFYFoundation_Tests-resources.sh */,
+				3C36185146D0CFE1031C53ECBD3BB709 /* Pods-LFYFoundation_Tests-umbrella.h */,
+				4C39DE1EBD5EFE31087C5CC7A73AD7FE /* Pods-LFYFoundation_Tests.debug.xcconfig */,
+				3A1E57525E00F72048C2317D21D84B32 /* Pods-LFYFoundation_Tests.release.xcconfig */,
+			);
+			name = "Pods-LFYFoundation_Tests";
+			path = "Target Support Files/Pods-LFYFoundation_Tests";
+			sourceTree = "<group>";
+		};
+		91CE40A8D18DD9461F4800CA47A94F99 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81E823DE630E323C9A77080CBB82F845 /* LFYFoundation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DEA7C429B9334B81EA59F889B05B5ABD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				516F8D2EFEBFE25017F073FB72BE37E6 /* Pods-LFYFoundation_Example */,
+				8CA7DD7981EA46A9C0BB5ED9C98DE301 /* Pods-LFYFoundation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F63EB56F597CE18CAA60A38915580A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58851FA26F58ACEDB2622793052E3637 /* LFYFoundation.framework */,
+				81803C6931DA081BD712BBCDB47B0220 /* Pods_LFYFoundation_Example.framework */,
+				D5519428642FA0FFE322CEE1C4841DBC /* Pods_LFYFoundation_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22C5F3509E09F7CB0B31E412383D01C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBFB6516BDD213041431C4A9149AA37 /* Pods-LFYFoundation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88052C0926FC07F01CA64759BC39430D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F743DC1CF9AC83666902D1E3DDFFD857 /* Pods-LFYFoundation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE571397930FCB99254F34A83C854C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CD9DDE3425971B34CC7B4D460C4CC3 /* LFYFoundation-umbrella.h in Headers */,
+				770DA2D83C51657266754B33C5818847 /* LFYRootObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		760CD5DF9065D937B70C7E24B9B6C0B9 /* Pods-LFYFoundation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A36585F57B0DD21AC7ADF2B81521BC /* Build configuration list for PBXNativeTarget "Pods-LFYFoundation_Tests" */;
+			buildPhases = (
+				8CA683FF454565DA0B49DB634B86C7B9 /* Sources */,
+				1DED99B18E6FC2B77853B429B7894496 /* Frameworks */,
+				88052C0926FC07F01CA64759BC39430D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LFYFoundation_Tests";
+			productName = "Pods-LFYFoundation_Tests";
+			productReference = D5519428642FA0FFE322CEE1C4841DBC /* Pods_LFYFoundation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94AD738243F0F2A82368C00E87F01FA6 /* Pods-LFYFoundation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F87A6CB3F537515D82BF0666A215AE2 /* Build configuration list for PBXNativeTarget "Pods-LFYFoundation_Example" */;
+			buildPhases = (
+				036E7C04041B5665038EF57C2ECB9E05 /* Sources */,
+				81B1DC41DEC70915D713273354B86C3F /* Frameworks */,
+				22C5F3509E09F7CB0B31E412383D01C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E3D01E10D65A7255DCFCB3A03EAE976 /* PBXTargetDependency */,
+			);
+			name = "Pods-LFYFoundation_Example";
+			productName = "Pods-LFYFoundation_Example";
+			productReference = 81803C6931DA081BD712BBCDB47B0220 /* Pods_LFYFoundation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6B3E94156D8360CE5F1206742912F54 /* LFYFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D99A4467169486324FCE69E3B1FFDF /* Build configuration list for PBXNativeTarget "LFYFoundation" */;
+			buildPhases = (
+				F037380410AEECBEA63E02BDD7FD8565 /* Sources */,
+				950EA64BD0DBA95CB364227F63922B2F /* Frameworks */,
+				ADE571397930FCB99254F34A83C854C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFYFoundation;
+			productName = LFYFoundation;
+			productReference = 58851FA26F58ACEDB2622793052E3637 /* LFYFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F63EB56F597CE18CAA60A38915580A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6B3E94156D8360CE5F1206742912F54 /* LFYFoundation */,
+				94AD738243F0F2A82368C00E87F01FA6 /* Pods-LFYFoundation_Example */,
+				760CD5DF9065D937B70C7E24B9B6C0B9 /* Pods-LFYFoundation_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036E7C04041B5665038EF57C2ECB9E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860A0F4CDC530E913F0561F8DAD06F92 /* Pods-LFYFoundation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA683FF454565DA0B49DB634B86C7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF62F6262C57BB4A2D4DAA623FCF69E /* Pods-LFYFoundation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F037380410AEECBEA63E02BDD7FD8565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B6B3CFB6E1791AE7ADEFE06805DD53 /* LFYFoundation-dummy.m in Sources */,
+				3BF00F408ED0443648EDE65DD17232D5 /* LFYRootObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E3D01E10D65A7255DCFCB3A03EAE976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LFYFoundation;
+			target = F6B3E94156D8360CE5F1206742912F54 /* LFYFoundation */;
+			targetProxy = FAB000CB6A77821185B61DE87A8BEC1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A651735ECDC936D86525848C36B9BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72087FBD3EDF18914953FFACC8D90C2 /* Pods-LFYFoundation_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LFYFoundation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFYFoundation_Example/Pods-LFYFoundation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LFYFoundation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		794981D922DD013E9C606BF78BB4C0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4DDE48C010E493BAC9537587C620BF /* LFYFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LFYFoundation/LFYFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LFYFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LFYFoundation/LFYFoundation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LFYFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2C614854950B18F9F35D5C3DAF77BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4DDE48C010E493BAC9537587C620BF /* LFYFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LFYFoundation/LFYFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LFYFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LFYFoundation/LFYFoundation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LFYFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D43E08BBCFDBD9CCDCFF3AA786C71122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C39DE1EBD5EFE31087C5CC7A73AD7FE /* Pods-LFYFoundation_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LFYFoundation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFYFoundation_Tests/Pods-LFYFoundation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LFYFoundation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E9E768715FB88D6FC7FB2F73DA8EE369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1E57525E00F72048C2317D21D84B32 /* Pods-LFYFoundation_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LFYFoundation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFYFoundation_Tests/Pods-LFYFoundation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LFYFoundation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F655CB3D64BE8B7426457D48A89E74FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6DEF76338A8BE0987417A2F16399D8 /* Pods-LFYFoundation_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LFYFoundation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFYFoundation_Example/Pods-LFYFoundation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LFYFoundation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A36585F57B0DD21AC7ADF2B81521BC /* Build configuration list for PBXNativeTarget "Pods-LFYFoundation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43E08BBCFDBD9CCDCFF3AA786C71122 /* Debug */,
+				E9E768715FB88D6FC7FB2F73DA8EE369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F87A6CB3F537515D82BF0666A215AE2 /* Build configuration list for PBXNativeTarget "Pods-LFYFoundation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A651735ECDC936D86525848C36B9BA7 /* Debug */,
+				F655CB3D64BE8B7426457D48A89E74FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31D99A4467169486324FCE69E3B1FFDF /* Build configuration list for PBXNativeTarget "LFYFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794981D922DD013E9C606BF78BB4C0AF /* Debug */,
+				B2C614854950B18F9F35D5C3DAF77BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

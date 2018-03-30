@@ -1,0 +1,6 @@
+framework module LFYFoundation {
+  umbrella header "LFYFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
